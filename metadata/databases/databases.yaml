@@ -1,0 +1,8 @@
+- name: Db-2
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgres://doadmin:AVNS_YyTPnl_njRF1ntVEjBA@db-postgresql-nyc1-92808-do-user-11649979-0.b.db.ondigitalocean.com:25060/defaultdb
+      isolation_level: read-committed
+      use_prepared_statements: false
+  tables: "!include Db-2/tables/tables.yaml"

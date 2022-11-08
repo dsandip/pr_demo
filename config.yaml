@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://pg-ro-demo-temp-adm.hasura.app
+admin_secret: H3KPO0xMeRnmaF8EvyQ0bRq6Tj18Vs7trxWqXPaEG97M5sYQ0hzyAmLSHV3ZwfnY
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000

@@ -1,0 +1,4 @@
+- "!include schema1_schema1_table_a.yaml"
+- "!include schema1_schema1_table_b.yaml"
+- "!include schema2_schema2_table_a.yaml"
+- "!include schema2_schema2_table_b.yaml"
