@@ -20,7 +20,7 @@
   definition:
     query:
       collection_name: allowed-queries
-      query_name: chandra
+      query_name: warren
   methods:
     - GET
   name: harish
