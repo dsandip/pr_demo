@@ -1,1 +1,19 @@
-[]
+- name: allowed-queries
+  definition:
+    queries:
+      - name: chandra
+        query: |
+          query Chandra_Rest_test {
+          	schema1_schema1_table_a {
+          		id
+          		name
+          	}
+          }
+      - name: warren
+        query: |
+          query sandipQuery {
+          	schema1_schema1_table_a {
+          		id
+          		name
+          	}
+          }

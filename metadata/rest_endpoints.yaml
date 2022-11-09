@@ -1,1 +1,27 @@
-[]
+- comment: test api
+  definition:
+    query:
+      collection_name: allowed-queries
+      query_name: chandra
+  methods:
+    - GET
+  name: chandra
+  url: chandra
+- comment: ""
+  definition:
+    query:
+      collection_name: allowed-queries
+      query_name: warren
+  methods:
+    - GET
+  name: warren
+  url: warren
+- comment: ""
+  definition:
+    query:
+      collection_name: allowed-queries
+      query_name: chandra
+  methods:
+    - GET
+  name: harish
+  url: harish
